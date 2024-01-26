@@ -1,0 +1,26 @@
+.url{
+    display: flex;
+    list-style: none;
+
+}
+
+#nav .url li a {
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+    text-align: none;
+}
+
+#nav .url li a:hover{
+    color: #1CB698;
+}
+
+.nav-responsibe{
+    background-color: #1CB698;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: none;
+}
